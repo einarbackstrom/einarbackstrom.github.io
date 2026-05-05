@@ -505,6 +505,8 @@ img {
 
   .portrait-card {
     max-width: 320px;
+    justify-self: center;
+    width: 100%;
   }
 
   .hero-shell {
@@ -545,5 +547,9 @@ img {
   .portrait-card,
   .summary-card {
     padding: 1rem 0;
+  }
+
+  .portrait-card {
+    margin-inline: auto;
   }
 }
