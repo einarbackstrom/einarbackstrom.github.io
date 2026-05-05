@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header class="site-header">
@@ -28,7 +29,7 @@
       </div>
     </header>
 
-    <section class="hero hero-home">
+    <section class="hero hero-home reveal">
       <div class="shell hero-shell hero-grid">
         <div class="hero-copy">
           <p class="hero-kicker">PhD Candidate in Political Science</p>
@@ -45,6 +46,13 @@
               href="cv.html"
               >Open CV</a
             >
+            <a
+              class="button button-ghost button-subtle"
+              href="https://scholar.google.com/citations?user=CUBQwRgAAAAJ&amp;hl=sv"
+              target="_blank"
+              rel="noreferrer"
+              >Google Scholar</a
+            >
           </div>
         </div>
 
@@ -52,7 +60,7 @@
     </section>
 
     <main class="shell page-content">
-      <section class="intro-grid">
+      <section class="intro-grid reveal">
         <div class="portrait-card">
           <img
             src="profile.jpg"
@@ -72,18 +80,10 @@
             support for democratic systems and when these dynamics may generate
             tensions that challenge democratic resilience and functioning.
           </p>
-          <div class="inline-links">
-            <a
-              href="https://scholar.google.com/citations?user=CUBQwRgAAAAJ&amp;hl=sv"
-              target="_blank"
-              rel="noreferrer"
-              >Google Scholar</a
-            >
-          </div>
         </div>
       </section>
 
-      <section class="content-section">
+      <section class="content-section reveal">
         <article class="summary-card publication-section">
           <p class="section-label">Current Publication</p>
           <h2>Peer-Reviewed Publications</h2>
@@ -108,7 +108,7 @@
         </article>
       </section>
 
-      <section class="content-section work-section">
+      <section class="content-section work-section reveal">
         <div class="section-heading-row">
           <div>
             <p class="section-label">In Progress</p>
@@ -157,21 +157,21 @@
         </div>
       </section>
 
-      <section class="content-section contact-section contact-band">
-        <div>
+      <section class="content-section contact-section contact-band reveal">
+        <div class="contact-header">
           <p class="section-label">Contact</p>
           <h2>Get in touch</h2>
         </div>
         <div class="contact-links">
-          <p>
-            Mail:
+          <p class="contact-line">
+            <span class="icon-mail" aria-hidden="true">&#9993;</span>
             <a href="mailto:einar.backstrom@statsvet.su.se"
               >einar.backstrom@statsvet.su.se</a
             >
           </p>
-          <p>
-            Profile:
+          <p class="contact-line">
             <a
+              class="button button-secondary contact-button"
               href="https://www.su.se/profiles/e/eiba6456"
               target="_blank"
               rel="noreferrer"
