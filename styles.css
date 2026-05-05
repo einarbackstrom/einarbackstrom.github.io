@@ -426,6 +426,7 @@ img {
   display: flex;
   align-items: center;
   gap: 0.7rem;
+  margin: 0;
 }
 
 .icon-mail {
@@ -443,21 +444,17 @@ img {
   flex: 0 0 auto;
 }
 
-.contact-button {
-  min-height: 44px;
-  background: var(--teal-deep);
-  color: #fff;
+.contact-link {
+  color: var(--teal-deep);
   text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  font-weight: 600;
 }
 
-.contact-button:visited,
-.contact-button:hover,
-.contact-button:focus-visible,
-.contact-button:active {
-  color: #fff;
+.contact-link:visited,
+.contact-link:hover,
+.contact-link:focus-visible,
+.contact-link:active {
+  color: var(--teal-deep);
 }
 
 .contact-band h2,
