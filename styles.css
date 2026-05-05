@@ -409,6 +409,11 @@ img {
   align-items: center;
 }
 
+.contact-links {
+  display: grid;
+  gap: 0.45rem;
+}
+
 .contact-band h2,
 .contact-band p,
 .contact-band a,
