@@ -446,14 +446,18 @@ img {
 .contact-button {
   min-height: 44px;
   background: var(--teal-deep);
-  color: #fff !important;
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-button:visited,
 .contact-button:hover,
 .contact-button:focus-visible,
 .contact-button:active {
-  color: #fff !important;
+  color: #fff;
 }
 
 .contact-band h2,
