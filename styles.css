@@ -438,10 +438,14 @@ img {
   border-radius: 999px;
   background: var(--teal-deep);
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 700;
   line-height: 1;
   flex: 0 0 auto;
+}
+
+.icon-academic {
+  font-size: 1.15rem;
 }
 
 .contact-link {
