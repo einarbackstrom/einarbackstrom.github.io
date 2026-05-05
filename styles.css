@@ -449,6 +449,13 @@ img {
   color: #fff !important;
 }
 
+.contact-button:visited,
+.contact-button:hover,
+.contact-button:focus-visible,
+.contact-button:active {
+  color: #fff !important;
+}
+
 .contact-band h2,
 .contact-band p,
 .contact-band a,
