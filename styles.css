@@ -99,6 +99,10 @@ img {
   border-bottom: 1px solid var(--line);
 }
 
+.hero-home {
+  border-bottom: 0;
+}
+
 .hero::after {
   display: none;
 }
@@ -322,6 +326,10 @@ img {
 .section-no-divider {
   border-top: 0;
   padding-top: 1.35rem;
+}
+
+.publication-block {
+  padding-top: 1.9rem;
 }
 
 .intro-grid.section-no-divider .content-card {
