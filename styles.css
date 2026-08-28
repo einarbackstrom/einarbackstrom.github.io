@@ -438,6 +438,11 @@ img {
   justify-items: start;
 }
 
+.contact-section {
+  border-top: 0;
+  padding-top: 1.9rem;
+}
+
 .contact-header h2 {
   margin-bottom: 0;
 }
