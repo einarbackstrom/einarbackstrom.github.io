@@ -319,6 +319,11 @@ img {
   margin-bottom: 1rem;
 }
 
+.section-no-divider {
+  border-top: 0;
+  padding-top: 0;
+}
+
 .publication-section {
   padding-top: 0;
 }
