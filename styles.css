@@ -362,6 +362,13 @@ img {
   color: var(--text);
 }
 
+.status-note {
+  margin: 0 0 0.55rem;
+  color: var(--teal-deep);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
 .publication h3,
 .work-item h3 {
   margin: 0.35rem 0 0.35rem;
