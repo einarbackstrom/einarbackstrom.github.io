@@ -321,7 +321,7 @@ img {
 
 .section-no-divider {
   border-top: 0;
-  padding-top: 0;
+  padding-top: 1.35rem;
 }
 
 .publication-section {
