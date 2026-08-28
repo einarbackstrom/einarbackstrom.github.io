@@ -324,6 +324,11 @@ img {
   padding-top: 1.35rem;
 }
 
+.intro-grid.section-no-divider .content-card {
+  border-top: 0;
+  padding-top: 0;
+}
+
 .publication-section {
   padding-top: 0;
 }
